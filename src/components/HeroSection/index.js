@@ -11,7 +11,7 @@ import {
     VideoBg
  } from './styles'
  import {Button} from '../ButtonElement' 
- import Video from '../../videos/video2.mp4'
+ import Video from '../../videos/video.mp4'
 const HeroSection = () => {
 const [hover, setHover] = useState(false)
 
