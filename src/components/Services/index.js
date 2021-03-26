@@ -13,23 +13,23 @@ import {
 const Services = () => {
     return (
         <ServicesContainer>
-            <ServicesH1>Our Services</ServicesH1>
+            <ServicesH1>Our Promises</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     {/* <ServicesIcon src={Icon1} /> */}
-                    <ServicesH2>Reduce Expenses</ServicesH2>
+                    <ServicesH2>Provide for the homeless</ServicesH2>
                     <ServicesP> we help reduce fees</ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>
                     {/* <ServicesIcon src={Icon2} /> */}
-                    <ServicesH2>Virtual Expenses</ServicesH2>
+                    <ServicesH2>Spread Awareness</ServicesH2>
                     <ServicesP> we help reduce fees</ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>
                     {/* <ServicesIcon src={Icon3} /> */}
-                    <ServicesH2>Access Expenses</ServicesH2>
+                    <ServicesH2>Educate!</ServicesH2>
                     <ServicesP> we help reduce fees</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>

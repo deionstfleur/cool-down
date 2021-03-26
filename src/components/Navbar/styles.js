@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 export const Nav = styled.nav`
 background: #000;
-hegiht: 80px;
+height: 80px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -37,6 +37,7 @@ align-items: center;
 margin-left: 24px;
 font-weight: bold;
 text-decoration: none;
+display: flex
 `;
 
 export const MobileIcon = styled.div`
@@ -102,7 +103,7 @@ font-size: 16px;
 outline: none;
 border: none;
 cursor: pointer;
-transition: a;; 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
 text-decoration: none;
 
 

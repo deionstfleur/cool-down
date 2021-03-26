@@ -25,10 +25,10 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle> Donate</FooterLinkTitle>
-                                <FooterLink to="/donate">How it works</FooterLink>
-                                <FooterLink to="/donate">Testimonials</FooterLink>
-                                <FooterLink to="/donate">Careers</FooterLink>
-                                <FooterLink to="/donate">Terms of Service</FooterLink>
+                                <FooterLink to="/donate">About</FooterLink>
+                                <FooterLink to="/donate">Discover</FooterLink>
+                                <FooterLink to="/donate">Services</FooterLink>
+                                <FooterLink to="/donate">Contact</FooterLink>
                         </FooterLinkItems>
 
                         <FooterLinkItems>
@@ -40,7 +40,7 @@ const Footer = () => {
                         </FooterLinkItems>
                     </FooterLinksWrapper>
 
-                    <FooterLinksWrapper>
+                    {/* <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle> Donate</FooterLinkTitle>
                                 <FooterLink to="/donate">How it works</FooterLink>
@@ -56,7 +56,7 @@ const Footer = () => {
                                 <FooterLink to="/donate">Careers</FooterLink>
                                 <FooterLink to="/donate">Terms of Service</FooterLink>
                         </FooterLinkItems>
-                    </FooterLinksWrapper>
+                    </FooterLinksWrapper> */}
                 </FooterLinksContainer>
                 <SocialMediaWrap>
                     {/* <SocialLogo to="/">

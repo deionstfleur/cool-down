@@ -19,7 +19,7 @@ const InfoSection = ({
     id,
     imgStart,
     topLine,
-    lighText,
+    lightText,
     headline,
     darkText,
     description,
@@ -34,7 +34,7 @@ const InfoSection = ({
                     <Column1>
                         <TextWrapper>
                             <TopLine>{topLine}</TopLine>
-                            <Heading lightText={lighText}>{headline}</Heading>
+                            <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle darkText={darkText}> {description}</Subtitle>
                             <BtnWrap>
                                 <Button to='home'>{buttonLabel}</Button>
@@ -43,7 +43,7 @@ const InfoSection = ({
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                     <Img src={img} alt={alt}  />
+                     <Img src={img} alt={alt} />
                     </ImgWrap>
                     </Column2>
                 </InfoRow>
