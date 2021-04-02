@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar'
 import Services from '../components/Services'
 import Footer from '../components/Footer'
 import ContactPage from '../../src/components/InfoSection/Contact'
+import FounderPage from '../../src/components/InfoSection/FounderPage';
 const Home = () => {
 
     // const [isOpen, setIsOpen] = useStae(false)
@@ -19,10 +20,12 @@ const Home = () => {
             <Navbar />
             <HeroSection />
             <InfoSection {...homeObjOne}/>
+            <FounderPage />
             <InfoSection {...homeObjTwo}/>
             <Services {...homeObjThree} />
             {/* <InfoSection {...homeObjFour} /> */}
             <ContactPage />
+
             <Footer />
         </div>
     )

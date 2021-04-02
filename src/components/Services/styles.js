@@ -9,7 +9,7 @@ align-items: center;
 background: #fff;
 
 @media screen and (max-width: 768px) {
-    height: 110px;
+    height: 500px;
 }
 
 @media screen and (max-widthL 480px) {
@@ -18,19 +18,18 @@ background: #fff;
 `
 
 export const ServicesWrapper = styled.div`
-max-width: 1000px;
-margin: 0 auto;
-display: grid; 
+margin: 0;
+display: flex;
 grid-template-columns: 1fr 1fr 1fr;
-align-items: center;
-grid-gap: 16px;
-padding: 0 50px;
+grid-gap: 46px;
 
-@media screen and (max-width: 100px) {
-    frid-template-columns: 1fr 1fr;
+
+@media screen and (max-width: 800px) {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
 }
 
-@media screen and (mac-width: 768px) {
+@media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     padding: 0 20px;
 }

@@ -9,12 +9,14 @@ import {
     ServicesH2,
     ServicesP
 } from './styles'
+import {Row} from 'react-bootstrap'
 
 const Services = () => {
     return (
         <ServicesContainer>
+            <Row md={12} style={{gap: '3rem'}}>
             <ServicesH1>Our Promises</ServicesH1>
-            <ServicesWrapper>
+           
                 <ServicesCard>
                     {/* <ServicesIcon src={Icon1} /> */}
                     <ServicesH2>Provide for the homeless</ServicesH2>
@@ -32,7 +34,9 @@ const Services = () => {
                     <ServicesH2>Educate!</ServicesH2>
                     <ServicesP> we help reduce fees</ServicesP>
                 </ServicesCard>
-            </ServicesWrapper>
+         
+
+            </Row>
         </ServicesContainer>
     )
 }
