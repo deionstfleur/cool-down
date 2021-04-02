@@ -22,14 +22,14 @@ import { Container, Col, Row } from 'react-bootstrap';
 
     const  FounderPage = () => {
         return(
-            <InfoContainer>
-            <InfoWrapper>
-                <InfoRow>
+            <InfoContainer style={{backgroundColor: 'white'}}>
+          
+
                     <Column1>
-                        <TextWrapper>
-                            <TopLine style={{fontSize: 35, color: 'white'}}>Meet the Founders</TopLine>
-                            <Container>
-                                <Row  md={12}>
+                       
+                            <Container style={{padding: 20}}>
+                                    <TopLine style={{fontSize: 35, color: 'black', alignItems: 'center'}}>Meet the Founders</TopLine>
+                                <Row  md={6} >
                                     <Col md={4}>
                                     <FounderCard />
 
@@ -45,7 +45,7 @@ import { Container, Col, Row } from 'react-bootstrap';
                             </Container>
                             
                      
-                            </TextWrapper>
+                          
 
                             {/* <Heading style={{backgroundColor: '#fff'}}>Contact Us</Heading> */}
                             {/* <Subtitle > <FiMail /> cooldownboston@gmail.com </Subtitle> */}
@@ -58,8 +58,8 @@ import { Container, Col, Row } from 'react-bootstrap';
                      <Img  />
                     </ImgWrap>
                     </Column2>
-                </InfoRow>
-            </InfoWrapper>
+            
+           
         </InfoContainer>
 
         )

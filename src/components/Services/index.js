@@ -14,8 +14,8 @@ import {Row} from 'react-bootstrap'
 const Services = () => {
     return (
         <ServicesContainer>
-            <Row md={12} style={{gap: '3rem'}}>
-            <ServicesH1>Our Promises</ServicesH1>
+            <Row md={12} style={{gap: '2rem'}}>
+            <ServicesH1 style={{padding: 30}}>Our Promises</ServicesH1>
            
                 <ServicesCard>
                     {/* <ServicesIcon src={Icon1} /> */}
@@ -34,8 +34,6 @@ const Services = () => {
                     <ServicesH2>Educate!</ServicesH2>
                     <ServicesP> we help reduce fees</ServicesP>
                 </ServicesCard>
-         
-
             </Row>
         </ServicesContainer>
     )
