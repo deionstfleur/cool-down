@@ -10,27 +10,28 @@ import { Nav,
     NavBtn,
     NavBtnLink
  } from './styles'
+ import {Link } from 'react-dom'
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <Nav>
             <NavbarContainer>
                 <NavLogo to='/'>cooldown</NavLogo>
-                <MobileIcon>
-                    <FaBars />
+                <MobileIcon onClick={toggle}>
+                    <FaBars  />
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to="about">About</NavLinks>
+                        <NavLinks to="/About">About</NavLinks>
                     </NavItem>
                       <NavItem>
-                        <NavLinks to="discover">Discover</NavLinks>
+                        <NavLinks to="/Members">Members</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="services">Services</NavLinks>
+                        <NavLinks to="/Services">Services</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="contact">Contact</NavLinks>
+                        <NavLinks to="/Contact">Contact</NavLinks>
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
@@ -38,6 +39,11 @@ const Navbar = () => {
                 </NavBtn>
             </NavbarContainer>      
         </Nav>
+
+
+
+        
+
     )
 }
 

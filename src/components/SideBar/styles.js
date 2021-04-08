@@ -26,6 +26,7 @@ export const Icon = styled.div`
 position: absolute: 
 top: 1.2rem;
 right: 1.5rem;
+background: transparent;
 font-size: 2rem;
 cursor: pointer;
 outline: none;
@@ -38,7 +39,7 @@ color: #fff;
 export const SidebarMenu = styled.div`
 display: grid;
 grid-template-columns: 1fr;
-grid-twmplate-rows: repeat(6, 80px);
+grid-template-rows: repeat(6, 80px);
 text-align: center;
 
 @media screen and (max-width: 480px) {
@@ -66,7 +67,7 @@ cursor: pointer;
 
 export const SideBtnWrap = styled.div`
 display: flex;
-justify-contet: center;
+justify-content: center;
 `
 
 export const SidebarRoute = styled(LinkR)`
@@ -80,6 +81,7 @@ outline: none;
 border: none;
 transition: all 0.2s ease-in-out;
 text-decoration: none;
+cursor: pointer; 
 
 
 &:hover {

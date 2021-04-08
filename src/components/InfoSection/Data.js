@@ -26,7 +26,7 @@ export const homeObjTwo = {
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum et mauris non sagittis. Mauris eget ante dui. Nunc quis urna at nibh mollis iaculis a in nunc. Sed pulvinar interdum lectus, ut maximus libero ultricies sed. Nullam scelerisque justo in magna tristique, in elementum ipsum consectetur.',
     buttonLabel: 'Get Started',
     imgStart: true,
-    img: require('../../images/pic3.svg').default,
+    img: require('../../images/events.jpg').default,
     alt: 'about',
     dark: false,
     primary: true,

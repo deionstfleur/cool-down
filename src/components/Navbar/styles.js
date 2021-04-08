@@ -44,7 +44,7 @@ export const MobileIcon = styled.div`
 display: none;
 
 @media screen and (max-width: 768px) {
-    display: none;
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
@@ -52,8 +52,9 @@ display: none;
     font-size: 1.8rem;
     cursor: pointer;
     color: #fff;
+    
 }
-`;
+`
 
 export const NavMenu = styled.ul`
 display: flex;
@@ -70,7 +71,7 @@ margin-right: -22px;
 export const NavItem = styled.li`
 height: 80px;
 `
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkR)`
 color: #fff;
 display: flex;
 align-items: center;
@@ -98,7 +99,7 @@ border-radius: 50px;
 background: #0000FF;
 white-space: nowrap;
 padding: 10px 22px;
-color: #010606;
+color: #fff;
 font-size: 16px;
 outline: none;
 border: none;

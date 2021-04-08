@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ServicesContainer = styled.div`
-height: 500px;
+height: 680px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -9,11 +9,9 @@ align-items: center;
 background: #fff;
 
 @media screen and (max-width: 768px) {
-    height: 500px;
-}
-
-@media screen and (max-widthL 480px) {
-    height: 1300px;
+    height: 645px;
+    justify-content: center;
+    align-items: center;
 }
 `
 
@@ -32,11 +30,12 @@ grid-gap: 46px;
 @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     padding: 0 20px;
+    width: 100%;
 }
 `
 
 export const ServicesCard = styled.div`
-background: #fff;
+background-color: #fff;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -44,7 +43,7 @@ align-items: center;
 border-radius: 10px;
 max-height: 340px;
 padding: 30px;
-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+box-shadow: 2px 5px 5px rgba(137, 196, 244, 1);
 transition: all 0.2s ease-in-out;
 
 &:hover {

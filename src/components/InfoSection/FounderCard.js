@@ -1,10 +1,12 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import Darius from '../../images/Darius.jpg'
-
+import './'
 
 const FounderCard = () => {
     return(
+        <Container style={{width: '100%'}}>
             <Flippy
             flipOnHover={false} // default false
             flipOnClick={true} // default false
@@ -30,6 +32,8 @@ const FounderCard = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum et mauris non sagittis. Mauris eget ante dui. Nunc quis urna at nibh mollis iaculis a in nunc. Sed pulvinar interdum lectus, ut maximus libero ultricies sed. Nullam scelerisque justo in magna tristique, in elementum ipsum consectetur.
             </BackSide>
             </Flippy>
+
+        </Container>
 
     )
 

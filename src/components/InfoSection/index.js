@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container, Row, Col, Figure } from 'react-bootstrap';
 import{ Button} from '../ButtonElement';
 import { 
     InfoContainer, 
@@ -13,40 +14,46 @@ import {
     ImgWrap,
     Img,
     InfoRow } from './styles'
+    import Boston from '../../images/Boston.jpg'
+    import Pulse from 'react-reveal/Pulse';
+
 
 const InfoSection = ({
-    lightBg,
-    id,
-    imgStart,
-    topLine,
-    lightText,
-    headline,
-    darkText,
-    description,
-    buttonLabel,
-    img,
-    alt
+ 
 }) => {
     return (
-        <InfoContainer lightBg={lightBg} id={id}>
+        <InfoContainer >
             <InfoWrapper>
-                <InfoRow imgStart={imgStart}>
-                    <Column1>
-                        <TextWrapper>
-                            <TopLine>{topLine}</TopLine>
-                            <Heading lightText={lightText}>{headline}</Heading>
-                            <Subtitle darkText={darkText}> {description}</Subtitle>
-                            <BtnWrap>
-                                <Button to='home'>{buttonLabel}</Button>
-                            </BtnWrap>
-                        </TextWrapper>
-                    </Column1>
-                    <Column2>
-                    <ImgWrap>
-                     <Img src={img} alt={alt} />
-                    </ImgWrap>
-                    </Column2>
-                </InfoRow>
+             <Pulse>
+
+                  <Row>
+                    <Col md={{offset: 4}}>
+                        <h1 style={{paddingTop: 30, fontSize: 50, textDecoration: 'underline'}}>Our Promises</h1>
+                    </Col>
+                </Row>
+             
+                <Container style={{paddingTop: 10}}>
+                <Row >
+                    <Col>
+                        <Figure>
+                            <Figure.Image  style={{cursor: 'pointer'}} src={Boston} width={400} height={400} />
+                        </Figure> 
+                    </Col> 
+                    <Col>
+                        <Figure>
+                            <Figure.Image src={Boston} width={400} height={200} />
+                        </Figure> 
+                    </Col>
+    
+                    <Col>
+                        <Figure>
+                            <Figure.Image src={Boston} width={400} height={200} />
+                        </Figure> 
+                    </Col> 
+                </Row>
+                </Container>
+             </Pulse>
+          
             </InfoWrapper>
         </InfoContainer>
     )

@@ -49,12 +49,11 @@ font-family: 'Dela Gothic One', cursive;
 text-shadow: 2px 2px #000;
 
 
-@media screen and (max-width: 768px) {
-    font-size:  48px;
-}
 
 @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 22px;
+  
+    
 }
 `
 

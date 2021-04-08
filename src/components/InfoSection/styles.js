@@ -20,12 +20,14 @@ margin-right: auto;
 margin-left: auto;
 padding: 0 24px;
 justify-content: center;
+background-color: #C3E4ED;
 `
 
 export const InfoRow = styled.div`
 display: grid;
 grid-auto-columns: minimax(auto, 1fr);
-align-items: center;grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+align-items: center;
+grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
 @media screen and (max-width: 768px) {
     grid-template-areas: ${({imgStart}) => (imgStart ?  `'col1' 'col2'` : `'col1 col1' 'col 2 col2'`)}
@@ -94,3 +96,4 @@ width: 100%;
 margin: 0 0 10px 0;
 padding-right: 0;
 `
+

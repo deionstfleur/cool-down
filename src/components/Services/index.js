@@ -15,7 +15,7 @@ const Services = () => {
     return (
         <ServicesContainer>
             <Row md={12} style={{gap: '2rem'}}>
-            <ServicesH1 style={{padding: 30}}>Our Promises</ServicesH1>
+            <ServicesH1  style={{padding: 30}}>Our Promises</ServicesH1>
            
                 <ServicesCard>
                     {/* <ServicesIcon src={Icon1} /> */}
