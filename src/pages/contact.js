@@ -3,14 +3,18 @@ import {Jumbotron, Container, Row, Col} from 'react-bootstrap'
 import Navbar from '../../src/components/Navbar'
 import { FaFacebook, FaInstagram, FaMobileAlt} from 'react-icons/fa'
 import Footer from '../components/InfoSection/Footer'
+import Nav from '../components/Navbar/index2'
+
 
 
 const contact = () => {
     return(
         <div>
-            <Navbar />
-            <Jumbotron style={{backgroundColor: 'lightblue'}} >
-                <h1 style={{color: 'white'}}>Contact Us</h1>
+            <Nav />
+            <Jumbotron style={{backgroundColor: 'lightblue', height: 260}}>
+                    <Col md={{offset: 1}}>
+                    <h1 style={{color: 'white', fontFamily: 'Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif', fontSize: 80, paddingTop: 85, textShadow:'1px 1px black' }}>Contact !</h1>
+                    </Col>
             </Jumbotron>
 
         <Container>

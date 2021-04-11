@@ -7,10 +7,17 @@ display: flex;
 justify-content: center; 
 align-items: center;
 padding: 0 30px;
-height: 800px;
+height: 880px;
 position: relative;
 z-index: 1;
+width: 100%;
 margin-top: -59px;
+
+@media screen and (max-width: 400px) {
+    background: #000;
+}
+
+
 `
 
 export const HeroBg = styled.div`

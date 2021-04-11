@@ -13,7 +13,7 @@ background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
 export const InfoWrapper = styled.div`
 display: grid;
 z-index: 1;
-height: 700px;
+height: 770px;
 width: 100%
 max-width: 1100px;
 margin-right: auto;
@@ -21,6 +21,11 @@ margin-left: auto;
 padding: 0 24px;
 justify-content: center;
 background-color: #C3E4ED;
+
+@media screen and (max-width: 480px) {
+    height: 1600px;
+    
+}
 `
 
 export const InfoRow = styled.div`

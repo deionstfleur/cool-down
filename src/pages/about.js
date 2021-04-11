@@ -3,14 +3,16 @@ import { Container, Row, Col, Figure } from 'react-bootstrap';
 import Navbar from '../../src/components/Navbar'
 import create from '../images/create.jpg'
 import Footer from '../components/InfoSection/Footer'
+import Nav from '../components/Navbar/index2'
+
 
 
 const about = () => {
     return(
         <div>
-            <Navbar />
+            <Nav />
             <Container>
-                <Col md={{span: 5, offset: 4}} style={{paddingTop: 40}}>
+                <Col md={{span: 5, offset: 4}} style={{paddingTop: 80}}>
                  <h1> Creating Community</h1>
                 </Col>
 

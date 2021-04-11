@@ -3,6 +3,8 @@ import {Row, Card, Col, Button, Jumbotron, Container } from 'react-bootstrap'
 import events from '../../images/events.jpg'
 import homeless from '../../images/homeless.jpg'
 import educate from '../../images/educate.jpg'
+import {FiInstagram} from "react-icons/fi"
+
 
 
 const ThirdPage = () => {
@@ -10,7 +12,7 @@ const ThirdPage = () => {
         <>
         {/* <Container> */}
             <Jumbotron >
-                <h1>Follow us on Instagram: @cooldown</h1>
+                <h1>Follow us on Instagram: <FiInstagram/> cooldown </h1>
             </Jumbotron>
         {/* </Container> */}
         {/* <Row>

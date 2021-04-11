@@ -4,6 +4,8 @@ import Navbar from '../../src/components/Navbar'
 import events from '../images/events.jpg'
 import Footer from '../components/InfoSection/Footer'
 import Fade from 'react-reveal/Fade'
+import Nav from '../components/Navbar/index2'
+
 
 
 
@@ -21,10 +23,10 @@ const services = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at aliquet risus. Sed interdum, ante nec mattis ultricies, nisl ante consectetur lacus, vel posuere libero quam ac mauris. Ut cursus eleifend pulvinar. Aenean facilisis velit sit amet nisl posuere volutpat. Fusce rutrum purus est, ut tempus nisi condimentum in.</p>
             </Container>
             <Footer /> */}
-            <Navbar />
-            <Jumbotron style={{backgroundColor: 'lightblue'}}>
-                    <Col md={{offset: 5}}>
-                    <h1 style={{color: 'white', fontFamily: 'Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif', fontSize: 50, paddingRight: -1 }}>Services</h1>
+            <Nav />
+            <Jumbotron style={{backgroundColor: 'lightblue', height: 260}}>
+                    <Col md={{offset: 1}}>
+                    <h1 style={{color: 'white', fontFamily: 'Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif', fontSize: 80, paddingTop: 85, textShadow:'1px 1px black' }}>Services</h1>
                     </Col>
             </Jumbotron>
             <Container>

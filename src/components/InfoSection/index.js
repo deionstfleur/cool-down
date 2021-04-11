@@ -15,6 +15,9 @@ import {
     Img,
     InfoRow } from './styles'
     import Boston from '../../images/Boston.jpg'
+    import EDUCATE from '../../images/EDUCATE2.jpg'
+    import SERVE from '../../images/SERVE.jpg'
+    import EXPAND from'../../images/EXPAND.jpg'
     import Pulse from 'react-reveal/Pulse';
 
 
@@ -33,24 +36,32 @@ const InfoSection = ({
                 </Row>
              
                 <Container style={{paddingTop: 10}}>
-                <Row >
-                    <Col>
+               <Row>
+                   <Col md={4}>
                         <Figure>
-                            <Figure.Image  style={{cursor: 'pointer'}} src={Boston} width={400} height={400} />
+                            <Figure.Image  style={{cursor: 'pointer'}} src={EDUCATE} width={400} height={400} />
                         </Figure> 
-                    </Col> 
-                    <Col>
+                   
+                   </Col>
+
+                   <Col md={4}>
+
                         <Figure>
-                            <Figure.Image src={Boston} width={400} height={200} />
+                            <Figure.Image src={SERVE} width={400} height={200} />
                         </Figure> 
-                    </Col>
-    
-                    <Col>
+                   </Col>
+               <Col md={4}>
                         <Figure>
-                            <Figure.Image src={Boston} width={400} height={200} />
+                            <Figure.Image src={EXPAND} width={400} height={200} />
                         </Figure> 
-                    </Col> 
-                </Row>
+               
+               </Col>
+               </Row>
+                   
+                    
+                    
+                    
+                    
                 </Container>
              </Pulse>
           

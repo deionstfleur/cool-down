@@ -6,16 +6,18 @@ import Desmond from '../images/Desmond.jpg'
 import Kevin from '../images/Kevin.jpg'
 import Footer from '../components/InfoSection/Footer'
 import Fade from 'react-reveal/Fade';
+import Nav from '../components/Navbar/index2'
+
 
 
 
 const members = () => {
     return(
         <div>
-            <Navbar />
-            <Jumbotron style={{backgroundColor: 'lightblue'}}>
-                    <Col md={{offset: 5}}>
-                    <h1 style={{color: 'white', fontFamily: 'Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif', fontSize: 50, paddingRight: -1 }}>Members</h1>
+            <Nav />
+            <Jumbotron style={{backgroundColor: 'lightblue', height: 260}}>
+                    <Col md={{offset: 1}}>
+                    <h1 style={{color: 'white', fontFamily: 'Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif', fontSize: 80, paddingTop: 85, textShadow:'1px 1px black' }}>Members</h1>
                     </Col>
             </Jumbotron>
             <Container>
