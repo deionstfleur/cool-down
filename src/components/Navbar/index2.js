@@ -9,21 +9,22 @@ import {
     NavItem, 
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+  
  } from './styles'
 
 const nav = () => {
     return(
 
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{zIndex: 1000, position: 'fixed', width: '100%',}}>
-  <Navbar.Brand href="/" style={{fontSize: 25}}>cooldown</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="/About">About</Nav.Link>
-      <Nav.Link href="/Members">Members</Nav.Link>
+        <Navbar  collapseOnSelect expand="lg" bg="jet" variant="jet" style={{zIndex: 1000, position: 'fixed', width: '100%', backgroundColor: 'black'}}>
+  <Navbar.Brand href="/" style={{fontSize: 25}}>CDB</Navbar.Brand>
+  <Navbar.Toggle  style={{color: 'white'}} aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse style={{color: 'white'}}  id="responsive-navbar-nav">
+    <Nav style={{fontSize: 20}} className="mr-auto">
+      <Nav.Link style={{color: 'white'}} href="/About">About</Nav.Link>
+      <Nav.Link style={{color: 'white'}}  href="/Members">Members</Nav.Link>
       {/* <Nav.Link href="/Services">Services</Nav.Link> */}
-      <Nav.Link href="/Contact">Contact</Nav.Link>
+      <Nav.Link style={{color: 'white'}}  href="/Contact">Contact</Nav.Link>
       {/* <NavbarContainer>
                 <NavLogo to='/'>cooldown</NavLogo> */}
                 {/* <MobileIcon onClick={toggle}>
@@ -58,7 +59,7 @@ const nav = () => {
     <Nav>
       {/* <Nav.Link href="#deets">More deets</Nav.Link> */}
       <NavBtn style={{zIndex: 100}}>
-      <Nav.Link eventKey={2} href="/Donate">
+      <Nav.Link style={{color: 'white'}}  eventKey={2} href="/Donate">
 
         Donate
       </Nav.Link>

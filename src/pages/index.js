@@ -27,7 +27,7 @@ const Home = () => {
             {/* <Navbar /> */}
             <Nav  />
             <HeroSection />
-            <InfoSection />
+            {/* <InfoSection /> */}
             <SecondPage />
             <ThirdPage />
             <Footer />

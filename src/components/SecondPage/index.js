@@ -25,10 +25,10 @@ const SecondPage = () => {
 
                     <Row md={6}>
                 <Col md={{span: 5, offset: 1}} style={{paddingTop:  10}}>
-                    <h1 style={{fontSize: 50, paddingBottom: 20}}>Creating Community!</h1>
+                    <h1 style={{fontSize: 50, paddingBottom: 20, textDecoration: 'underline'}}>Creating Community!</h1>
 
                     <Figure style={{paddingTop: 10}}>
-                        <Figure.Image src={events} />
+                        <Figure.Image style={{boxShadow: '8px 8px lightblue'}} src={events} />
                     </Figure>
                 </Col>
                 <Col md={6}>
@@ -42,13 +42,19 @@ const SecondPage = () => {
 
                     </Row>
                 </Fade>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
 
 
 
                 <Fade right >
                     <Row md={6} style={{paddingTop: 20}}>
                         <Col md={{span: 5, offset: 1}} style={{paddingTop:  10}}>
-                            <h1 style={{fontSize: 50, paddingBottom: 20}}>What We Do!</h1>
+                            <h1 style={{fontSize: 50, paddingBottom: 20, textDecoration: 'underline'}}>What We Do!</h1>
                             <p style={{fontSize: 25, paddingTop: 20}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu luctus enim. Vestibulum tincidunt nulla sapien, at eleifend urna commodo ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue porta ante sed pulvinar. Cras ultricies gravida mauris a vulputate.</p>
                            
                             <Link to="/Services">
@@ -58,7 +64,7 @@ const SecondPage = () => {
                         </Col>
                         <Col md={6}>
                             <Figure style={{paddingTop: 10}}>
-                                <Figure.Image src={Desmond} />
+                                <Figure.Image style={{boxShadow: '8px 8px teal'}}  src={Desmond} />
                             </Figure>
                         </Col>
 

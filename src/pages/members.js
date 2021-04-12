@@ -30,7 +30,7 @@ const members = () => {
                 <Fade left >
 
                     <Figure>
-                        <Figure.Image src={Darius} />
+                        <Figure.Image  src={Darius} />
                     </Figure>
                 </Fade>
                </Col>
@@ -47,7 +47,7 @@ const members = () => {
           <Col md={6}>
                    <Fade right >
                         <Figure>
-                            <Figure.Image src={Desmond} />
+                            <Figure.Image    src={Desmond} />
                         </Figure>
                    </Fade>
           </Col>

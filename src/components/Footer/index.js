@@ -38,18 +38,15 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle> Donate</FooterLinkTitle>
-                                <FooterLink to="/donate">About</FooterLink>
-                                <FooterLink to="/donate">Discover</FooterLink>
-                                <FooterLink to="/donate">Services</FooterLink>
-                                <FooterLink to="/donate">Contact</FooterLink>
+                                <FooterLink to="/About">About</FooterLink>
+                                <FooterLink to="/Members">Members</FooterLink>
+                                 <FooterLink to="/Contact">Contact</FooterLink>
                         </FooterLinkItems>
-
                         <FooterLinkItems>
                             <FooterLinkTitle> Donate</FooterLinkTitle>
-                                <FooterLink to="/donate">How it works</FooterLink>
-                                <FooterLink to="/donate">Testimonials</FooterLink>
-                                <FooterLink to="/donate">Careers</FooterLink>
-                                <FooterLink to="/donate">Terms of Service</FooterLink>
+                                <FooterLink to="/About">About</FooterLink>
+                                <FooterLink to="/Members">Members</FooterLink>
+                                 <FooterLink to="/Contact">Contact</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
 

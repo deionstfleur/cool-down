@@ -2,6 +2,18 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 import styled from 'styled-components'
 
+export const Navbarr = styled.nav`
+background: #000;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1rem;
+position: sticky;
+top: 0;
+z-index: 10;
+`
+
 export const Nav = styled.nav`
 background: #000;
 height: 80px;
