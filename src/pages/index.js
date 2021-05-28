@@ -12,7 +12,7 @@ import FirstPage from '../components/FirstPage'
 import SecondPage from '../components/SecondPage'
 import ThirdPage from '../components/ThirdPage'
 import SideBar from '../components/SideBar'
-import Nav from '../components/Navbar/index2'
+import Nav from '../components/Navbar/index'
 const Home = () => {
 
     const [isOpen, setIsOpen] = useState(false)
@@ -27,7 +27,7 @@ const Home = () => {
             {/* <Navbar /> */}
             <Nav  />
             <HeroSection />
-            {/* <InfoSection /> */}
+            <InfoSection />
             <SecondPage />
             <ThirdPage />
             <Footer />

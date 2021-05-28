@@ -1,17 +1,17 @@
 import React from 'react'
 import {Jumbotron, Container, Row, Col} from 'react-bootstrap'
 import Navbar from '../../src/components/Navbar'
-import { FaFacebook, FaInstagram, FaMobileAlt} from 'react-icons/fa'
+import { FaEnvelope, FaPhone, FaInstagram} from 'react-icons/fa'
 import Footer from '../components/InfoSection/Footer'
-import Nav from '../components/Navbar/index2'
+import Nav from '../components/Navbar/index'
 
 
 
 const contact = () => {
     return(
-        <div>
+        <div style={{overflowX: 'hidden'}}>
             <Nav />
-            <Jumbotron style={{backgroundColor: 'lightblue', height: 260}}>
+            <Jumbotron style={{backgroundColor: '#00262F', height: 260}}>
                     <Col md={{offset: 1}}>
                     <h1 style={{color: 'white', fontFamily: 'Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif', fontSize: 70, paddingTop: 85, textShadow:'1px 1px black' }}>Contact !</h1>
                     </Col>
@@ -24,26 +24,27 @@ const contact = () => {
                 </Col>
                <Col md={{offset: 4}}>
                 <Row style={{paddingTop: 50}}>
-                 <h1>
-                        <FaInstagram /> @cooldown
+                 <h1 style={{fontSize: 31}}>
+                        <FaInstagram /> @cooldownboston
                  </h1>  
                 </Row>  
 
                 <Row style={{paddingTop: 10}}>
-                 <h1>
-                        <FaFacebook /> Cooldown Boston
+                 <h1 style={{fontSize: 31}}>
+                        <FaEnvelope /> Cooldownboston19@gmail.com
                  </h1>  
                 </Row> 
 
                 <Row style={{paddingTop: 10}}>
-                 <h1>
-                        <FaMobileAlt /> Cooldown Boston
+                 <h1 style={{fontSize: 31}}>
+                        <FaPhone /> (617)-997-7931
                  </h1>  
                 </Row>
                
                </Col>
 
         </Container>
+        <br />
         <Footer />
             
         </div>

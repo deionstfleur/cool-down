@@ -16,10 +16,10 @@ const Navbar = ({toggle}) => {
     return (
         <Nav>
             <NavbarContainer>
-                <NavLogo to='/'>cooldown</NavLogo>
-                <MobileIcon onClick={toggle}>
+                <NavLogo style={{textDecoration: 'none'}} to='/'>cooldown</NavLogo>
+                {/* <MobileIcon onClick={toggle}>
                     <FaBars  />
-                </MobileIcon>
+                </MobileIcon> */}
                 <NavMenu>
                     <NavItem>
                         <NavLinks to="/About">About</NavLinks>
@@ -30,12 +30,13 @@ const Navbar = ({toggle}) => {
                     <NavItem>
                         <NavLinks to="/Services">Services</NavLinks>
                     </NavItem>
-                    <NavItem>
+                    {/* <NavItem>
                         <NavLinks to="/Contact">Contact</NavLinks>
-                    </NavItem>
+                    </NavItem> */}
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to="/Donate">Donate</NavBtnLink>
+                    <NavBtnLink to="/Contact">Contact</NavBtnLink>
+                    <NavLinks style={{display: 'none'}} to="/Contact">Contact</NavLinks>
                 </NavBtn>
             </NavbarContainer>      
         </Nav>

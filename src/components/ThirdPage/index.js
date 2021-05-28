@@ -12,7 +12,7 @@ const ThirdPage = () => {
         <>
         {/* <Container> */}
             <Jumbotron >
-                <h1>Follow us on Instagram: <FiInstagram/> cooldown </h1>
+                <h1>Follow us on Instagram: <FiInstagram/> cooldownboston </h1>
             </Jumbotron>
         {/* </Container> */}
         {/* <Row>

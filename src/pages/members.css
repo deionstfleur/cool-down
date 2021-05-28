@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.Darius {
+    border-radius: 25px;
+    margin: 10px;
+    justify-content: center;
+    
+}
+
+.box {
+border: 1px solid black;
+border-radius: 20px;
+width: 100px;
+margin-bottom: 10px;
+}
+
+.animation:hover {
+    transform: scale(1.0);
+}
+
+@media screen and (max-width: 600px) {
+    .top {
+        flex-wrap: wrap;
+        font-size: 15px;
+        overflow-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Desmond {
+       width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Darius{
+       width: 100%;
+    }
+}
+.Desmond {
+    height:500px;
+}
+
+h2 {
+    margin: 12px;
+}
+

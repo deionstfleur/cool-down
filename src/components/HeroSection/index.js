@@ -12,7 +12,8 @@ import {
     VideoBg
  } from './styles'
  import {Button} from '../ButtonElement' 
- import Video from '../../videos/video2.mp4'
+ import {Button2} from '../ButtonElement' 
+ import Video from '../../videos/video.mp4'
  import {Link} from 'react-dom'
 import { FaArrowDown, FaArrowUp } from 'react-icons/fa'
 import {Row} from 'react-bootstrap'
@@ -29,18 +30,22 @@ const onHover = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <Row>
+                {/* <Row>
                  <FaArrowUp size={42} color="white" style={{zIndex: 100}} />
-                </Row>
+                </Row> */}
                 <HeroH1> Cooldown Boston</HeroH1>
                 <HeroP>
                     Explore our services and see how you can help!
                 </HeroP>
                 <HeroBtnWrapper>
                  
-                    <Button to="/About" onMouseEnter={onHover} onMouseLeave={onHover}>
+                    <Button style={{display: 'block'}} to="/About" onMouseEnter={onHover} onMouseLeave={onHover}>
                         Explore {hover ? <FaArrowDown /> : <FaArrowDown />}
                     </Button>
+                    <br />
+                    <Button2  to="/Contact" onMouseEnter={onHover} onMouseLeave={onHover}>
+                        Contact {hover ? <FaArrowDown /> : <FaArrowDown />}
+                    </Button2>
                 </HeroBtnWrapper>
             </HeroContent>
             

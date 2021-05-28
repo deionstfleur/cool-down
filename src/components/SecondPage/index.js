@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Image, Figure, Button, Card} from 'react-bootstrap';
 import events from '../../images/events.jpg'
-import homeless from '../../images/homeless.jpg'
+import freewater from '../../images/freewater.jpeg'
 import educate from '../../images/educate.jpg'
 import Boston from '../../images/Boston.jpg'
 import Desmond from '../../images/Desmond.jpg'
@@ -21,18 +21,18 @@ const SecondPage = () => {
         <>
         {/* <Container style={{height: 200 }> */}
                 <Container style={{paddingTop: 50}}>
-                <Fade left >
-
+                {/* <Fade left > */}
+{/* 
                     <Row md={6}>
                 <Col md={{span: 5, offset: 1}} style={{paddingTop:  10}}>
                     <h1 style={{fontSize: 50, paddingBottom: 20, textDecoration: 'underline'}}>Creating Community!</h1>
 
                     <Figure style={{paddingTop: 10}}>
-                        <Figure.Image style={{boxShadow: '8px 8px lightblue'}} src={events} />
+                        <Figure.Image style={{boxShadow: '8px 8px lightblue'}} src={freewater} />
                     </Figure>
                 </Col>
                 <Col md={6}>
-                    <p style={{fontSize: 25, paddingTop: 20}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu luctus enim. Vestibulum tincidunt nulla sapien, at eleifend urna commodo ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue porta ante sed pulvinar. Cras ultricies gravida mauris a vulputate.</p>
+                    <p style={{fontSize: 25, paddingTop: 100}}>The mission of Cooldown Boston, a nonprofit charity watchdog and information service, is to maximize the effectiveness of every dollar contributed to charity by providing donors with the information they need to make more informed giving decisions. </p>
                     
                     <Link to="/About">
                         <Button style={{borderRadius: 30}}  >Learn More</Button>
@@ -40,22 +40,18 @@ const SecondPage = () => {
                 
                 </Col>
 
-                    </Row>
-                </Fade>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
+                    </Row> */}
+                {/* </Fade> */}
+                       
+                    
 
 
 
-                <Fade right >
-                    <Row md={6} style={{paddingTop: 20}}>
+                {/* <Fade right > */}
+                    <Row md={6} style={{paddingTop: 10}}>
                         <Col md={{span: 5, offset: 1}} style={{paddingTop:  10}}>
                             <h1 style={{fontSize: 50, paddingBottom: 20, textDecoration: 'underline'}}>What We Do!</h1>
-                            <p style={{fontSize: 25, paddingTop: 20}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu luctus enim. Vestibulum tincidunt nulla sapien, at eleifend urna commodo ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue porta ante sed pulvinar. Cras ultricies gravida mauris a vulputate.</p>
+                            <p style={{fontSize: 25}}> To research and evaluate the efficiency, accountability and governance of nonprofit organizations; to educate the public about the importance of wise giving; to inform the public of wasteful or unethical practices of nonprofits and provide recognition to highly effective and ethical charities</p>
                            
                             <Link to="/Services">
                                  <Button style={{borderRadius: 30}} >Learn More</Button> 
@@ -64,12 +60,12 @@ const SecondPage = () => {
                         </Col>
                         <Col md={6}>
                             <Figure style={{paddingTop: 10}}>
-                                <Figure.Image style={{boxShadow: '8px 8px teal'}}  src={Desmond} />
+                                <Figure.Image style={{boxShadow: '8px 8px teal', borderRadius: 100}}  src={Desmond} />
                             </Figure>
                         </Col>
 
                     </Row>
-                    </Fade>         
+                    {/* </Fade>          */}
        </Container>
        
             </>

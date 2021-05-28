@@ -20,10 +20,10 @@ margin-right: auto;
 margin-left: auto;
 padding: 0 24px;
 justify-content: center;
-background-color: #C3E4ED;
+backgroundColor: #00262F;
 
 @media screen and (max-width: 480px) {
-    height: 1600px;
+    height: 1040px;
     
 }
 `

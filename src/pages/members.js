@@ -6,94 +6,83 @@ import Desmond from '../images/Desmond.jpg'
 import Kevin from '../images/Kevin.jpg'
 import Footer from '../components/InfoSection/Footer'
 import Fade from 'react-reveal/Fade';
-import Nav from '../components/Navbar/index2'
+import Nav from '../components/Navbar/index'
+import '../pages/members.css'
 
 
 
 
 const members = () => {
     return(
-        <div>
+        <div style={{overflowX: 'hidden'}} >
             <Nav />
-            <Jumbotron style={{backgroundColor: 'lightblue', height: 260}}>
+            <Jumbotron style={{backgroundColor: '#00262F', height: 260}}>
                     <Col md={{offset: 1}}>
-                    <h1 style={{color: 'white', fontFamily: 'Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif', fontSize: 80, paddingTop: 85, textShadow:'1px 1px black' }}>Members</h1>
+                    <h1 style={{color: 'white', fontFamily: 'Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif', fontSize: 80, paddingTop: 85, textShadow:'1px 1px black'}}>Members</h1>
                     </Col>
             </Jumbotron>
-            <Container>
-                <Row>
-                    <Col style={{paddingTop: 15}} md={{offset: 5}}>
-                    </Col>
-                </Row>
-                <Row> 
-               <Col md={6}>
-                <Fade left >
+      
+        <Container>
+            <Row >
+           
+              <Col md={6}>
+                <Figure >
+                    {/* <Figure.Image src={Darius} height={300} width={200} style={{borderRadius: 20}}  />
+                     */}
+                     <img src={Darius} style={{borderRadius: 20}} className="animation" />
+                    <h4 style={{marginTop: 20, textDecoration: 'underline', marginRight: 85, textAlign: 'center'}}> Darius Anderson</h4>
+                    <div className="box">
+                    <p style={{position: 'relative', margin: 5, textAlign: 'center'}}>Founder</p>
+                    </div>
+                    <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60}}>Darius Anderson: Founder of CoolDown Boston, a Boston native and has been involved in many non for profit organizations for close to a decade. All of these different influences have aided in his path to philanthropy and giving back to his community. Darius started CoolDown Boston in 2018 because he saw a real issue in his community that he wanted to solve.</h2>
+                </Figure>
+              
+              </Col>
 
+          
+            <Col md={6}>
+                <Figure>
+                    {/* <Figure.Image src={Desmond} height={300} width={200} style={{borderRadius: 20}} /> */}
+                    <img src={Desmond} style={{height: 400, width: 400, borderRadius: 20}}  />
+                    <h4 style={{marginTop: 20, textDecoration: 'underline', marginRight: 85, textAlign: 'center'}}> Desmond Sullivan</h4>
+                    <div className="box">
+                    <p style={{position: 'relative', margin: 5, textAlign: 'center'}}>Volunteer Director</p>
+                    </div>
+                    <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60}}>In charge of volunteers and distribution teams for the give out days for CoolDown Boston.</h2>
+                </Figure>
+            
+            </Col>
+             
+            </Row>
+
+            <Row >
+              <Col md={6}>
+                <Figure >
+                    {/* <Figure.Image src={Darius} height={300} width={200} style={{borderRadius: 20}}  /> */}
+                    <img src={Kevin} style={{height: 400, width: 400, borderRadius: 20}} />
+                    <h4 style={{marginTop: 20, textDecoration: 'underline', marginRight: 15, textAlign: 'center'}}> Kevin Jubani</h4>
+                    <div className="box">
+                    <p style={{position: 'relative', margin: 5, textAlign: 'center'}}>Financial Director</p>
+                    </div>
+                    <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60}}>In charge of finances for the company.</h2>
+                </Figure>
+              
+              </Col>
+          
+              <Col md={6}>
                     <Figure>
-                        <Figure.Image  src={Darius} />
-                    </Figure>
-                </Fade>
-               </Col>
-               <Col md={6}>
-                        <h1 style={{fontSize: 25, paddingTop: 20, textDecoration: 'underline'}}>Darius Anderson (Founder)</h1>
-                        <p style={{fontSize: 22}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu luctus enim. Vestibulum tincidunt nulla sapien, at eleifend urna commodo ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue porta ante sed pulvinar. Cras ultricies gravida mauris a vulputate.</p>
-               </Col>
-               
-
-               <Col md={6}>
-                   <h1 style={{fontSize: 25, paddingTop: 20, textDecoration: 'underline'}}> Desmond Sullivan (Founder)</h1>
-                   <p style={{fontSize: 22}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu luctus enim. Vestibulum tincidunt nulla sapien, at eleifend urna commodo ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue porta ante sed pulvinar. Cras ultricies gravida mauris a vulputate.</p>    
-             </Col>
-          <Col md={6}>
-                   <Fade right >
-                        <Figure>
-                            <Figure.Image    src={Desmond} />
-                        </Figure>
-                   </Fade>
-          </Col>
-
-          <Col md={6}>
-               
-              <Fade left >
-               <Figure>
-                   {/* <Figure.Image src={Kevin} /> */}
-                   Kevin
-               </Figure>
-              </Fade>
-          </Col>
-          <Col md={6}>
-                   <h1 style={{fontSize: 25, paddingTop: 20, textDecoration: 'underline'}}> Kevin Jubani (Founder)</h1>
-                   <p style={{fontSize: 22}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu luctus enim. Vestibulum tincidunt nulla sapien, at eleifend urna commodo ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue porta ante sed pulvinar. Cras ultricies gravida mauris a vulputate.</p>
-          </Col>
-
-               {/* <Col md={4}>
-               
-               <Figure>
-                   <Figure.Image src={Desmond} />
-                   <h1 style={{fontSize: 25}}>Desmond Sullivan (Founder)</h1>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu luctus enim. Vestibulum tincidunt nulla sapien, at eleifend urna commodo ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue porta ante sed pulvinar. Cras ultricies gravida mauris a vulputate.</p>
-               </Figure>
-          </Col>
-          <Col md={4} >
-               
-               <Figure> */}
-                   {/* <Figure.Image src={Kevin} /> */}
-                   {/* Kevin
-                   <h1 style={{fontSize: 25}}>Kevin Jubani (Founder)</h1>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu luctus enim. Vestibulum tincidunt nulla sapien, at eleifend urna commodo ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam congue porta ante sed pulvinar. Cras ultricies gravida mauris a vulputate.</p>
-               </Figure>
-          </Col> */}
-
-
-                    {/* <Figure>
-                        <Figure.Image src={Darius} />
-                    </Figure>
-                    <Figure>
-                        <Figure.Image src={Darius} />
-                    </Figure> */}
-                </Row>
-
-            </Container>
+                        {/* <Figure.Image src={Kevin} height={100} width={300} style={{borderRadius: 20}} /> */}
+                        <img src="https://1001freedownloads.s3.amazonaws.com/vector/thumb/336877/FreeVectorBusinessManAvatarSilhouette.jpg" style={{height: 400, width: 400, borderRadius: 20}} alt="khari" />
+                        <h4 style={{marginTop: 20, textDecoration: 'underline', marginRight: 85, textAlign: 'center'}}> Khari Brydie-Lovelock</h4>
+                        <div className="box">
+                        <p style={{position: 'relative', margin: 5, textAlign: 'center'}}> Media Director</p>
+                        </div>
+                        <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60}}> In charge of media for CoolDown Boston; newspapers, social media, pictures and videos. </h2>
+                    </Figure>           
+             </Col>            
+        </Row>
+        </Container>
+            
             <Footer />
         </div>
     )

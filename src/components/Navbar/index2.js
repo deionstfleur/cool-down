@@ -20,7 +20,7 @@ const nav = () => {
   <Navbar.Brand href="/" style={{fontSize: 25}}>CDB</Navbar.Brand>
   <Navbar.Toggle  style={{color: 'white'}} aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse style={{color: 'white'}}  id="responsive-navbar-nav">
-    <Nav style={{fontSize: 20}} className="mr-auto">
+    <Nav style={{fontSize: 20, display: 'flex', alignItems: 'center'}} className="mr-auto">
       <Nav.Link style={{color: 'white'}} href="/About">About</Nav.Link>
       <Nav.Link style={{color: 'white'}}  href="/Members">Members</Nav.Link>
       {/* <Nav.Link href="/Services">Services</Nav.Link> */}
@@ -61,7 +61,7 @@ const nav = () => {
       <NavBtn style={{zIndex: 100}}>
       <Nav.Link style={{color: 'white'}}  eventKey={2} href="/Donate">
 
-        Donate
+        
       </Nav.Link>
               
 

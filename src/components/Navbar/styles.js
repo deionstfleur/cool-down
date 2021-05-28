@@ -49,7 +49,13 @@ align-items: center;
 margin-left: 24px;
 font-weight: bold;
 text-decoration: none;
-display: flex
+display: flex;
+
+@media screen and (max-width: 768px) {
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
 `;
 
 export const MobileIcon = styled.div`
@@ -76,12 +82,14 @@ text-align: center;
 margin-right: -22px;
 
 @media screen and (max-width: 768px) {
-    display: none;
+    display: flex;
+    font-size: 15px;
 }
 `
 
 export const NavItem = styled.li`
 height: 80px;
+text-decoration: none;
 `
 export const NavLinks = styled(LinkR)`
 color: #fff;
@@ -91,6 +99,11 @@ text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
+
+:hover {
+    text-decoration: none;
+    font-size: 20px;
+}
 
 &&.active {
     border-bottom: 3px solid #01bf71;
@@ -103,12 +116,13 @@ align-items: center;
 
 @media screen and (max-width: 768px) {
     display: none;
+    
 }
 `
 
 export const NavBtnLink = styled(LinkR)`
 border-radius: 50px;
-background: #0000FF;
+background: #00262F;
 white-space: nowrap;
 padding: 10px 22px;
 color: #fff;
@@ -124,6 +138,7 @@ text-decoration: none;
     transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
+    text-decoration: none;
 }
 `
 

@@ -19,6 +19,8 @@ import {
     import SERVE from '../../images/SERVE.jpg'
     import EXPAND from'../../images/EXPAND.jpg'
     import Pulse from 'react-reveal/Pulse';
+    import {Link} from 'react-router-dom'
+    import freewater from '../../images/freewater.jpeg'
 
 
 const InfoSection = ({
@@ -27,43 +29,35 @@ const InfoSection = ({
     return (
         <InfoContainer >
             <InfoWrapper>
-             <Pulse>
+         
+            <Container>
 
-                  <Row>
-                    <Col md={{offset: 4}}>
-                        <h1 style={{paddingTop: 30, fontSize: 50, textDecoration: 'underline'}}>Our Promises</h1>
-                    </Col>
-                </Row>
-             
-                <Container style={{paddingTop: 10}}>
-               <Row>
-                   <Col md={4}>
-                        <Figure>
-                            <Figure.Image  style={{cursor: 'pointer'}} src={EDUCATE} width={400} height={400} />
-                        </Figure> 
-                   
-                   </Col>
+            <Row md={6} style={{marginTop: 50}}>
+                <Col md={{span: 5, offset: 1}} style={{paddingTop:  10}}>
 
-                   <Col md={4}>
+                    <Figure style={{paddingTop: 10}}>
+                        <Figure.Image style={{boxShadow: '8px 8px lightblue', borderRadius: 100}} src={freewater} />
+                    </Figure>
+                </Col>
+                <Col md={6} style={{}}>
+                    <h1 style={{fontSize: 50, paddingBottom: 20, textDecoration: 'underline'}}>Creating Community!</h1>
+                    <p style={{fontSize: 25,}}>The mission of Cooldown Boston, a nonprofit charity watchdog and information service, is to maximize the effectiveness of every dollar contributed to charity by providing donors with the information they need to make more informed giving decisions. </p>
+                    
+                    <Link to="/About">
+                        <Button style={{borderRadius: 30}}  >Learn More</Button>
+                    </Link>
+                
+                </Col>
 
-                        <Figure>
-                            <Figure.Image src={SERVE} width={400} height={200} />
-                        </Figure> 
-                   </Col>
-               <Col md={4}>
-                        <Figure>
-                            <Figure.Image src={EXPAND} width={400} height={200} />
-                        </Figure> 
+                    </Row>
+            </Container>
+                
+                    
+                    
+                    
+                    
                
-               </Col>
-               </Row>
-                   
-                    
-                    
-                    
-                    
-                </Container>
-             </Pulse>
+             
           
             </InfoWrapper>
         </InfoContainer>
