@@ -36,6 +36,11 @@ height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
 background: #232a34;
+
+@media screen and (min-width: 400px) {
+    display: block;
+}
+
 `
 
 export const HeroContent = styled.div`
@@ -90,11 +95,11 @@ align-items: center
 `
 
 export const ArrowForward = styled(MdArrowForward)`
-margin-lwft: 8px;
+margin-left: 8px;
 font-size: 20px;
 `
 
 export const ArrowRight = styled(MdKeyboardArrowRight)`
-margin-lwft: 8px;
+margin-left: 8px;
 font-size: 20px;
 `
