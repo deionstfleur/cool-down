@@ -35,7 +35,7 @@ width: 100%;
 height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
-background: #232a34;
+
 
 @media screen and (min-width: 400px) {
     display: block;
@@ -63,7 +63,8 @@ text-shadow: 2px 2px #000;
 
 
 @media screen and (max-width: 480px) {
-    font-size: 22px;
+    font-size: 32px;
+    margin-bottom: 10px;
   
     
 }

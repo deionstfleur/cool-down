@@ -30,7 +30,7 @@ const contact = () => {
                 </Row>  
 
                 <Row style={{paddingTop: 10}}>
-                 <h1 style={{fontSize: 31}}>
+                 <h1 style={{fontSize: 25}}>
                         <FaEnvelope /> Cooldownboston19@gmail.com
                  </h1>  
                 </Row> 
