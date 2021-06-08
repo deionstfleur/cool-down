@@ -5,6 +5,7 @@ import Darius from '../images/Darius.jpg'
 import Desmond from '../images/Desmond.jpg'
 import Kevin from '../images/Kevin.jpg'
 import Footer from '../components/InfoSection/Footer'
+import Khari from '../images/khari.jpeg'
 import Fade from 'react-reveal/Fade';
 import Nav from '../components/Navbar/index'
 import '../pages/members.css'
@@ -72,7 +73,7 @@ const members = () => {
               <Col md={6}>
                     <Figure>
                         {/* <Figure.Image src={Kevin} height={100} width={300} style={{borderRadius: 20}} /> */}
-                        <img src="https://1001freedownloads.s3.amazonaws.com/vector/thumb/336877/FreeVectorBusinessManAvatarSilhouette.jpg" style={{height: 400, width: 400, borderRadius: 20}} alt="khari" />
+                        <img src={Khari} style={{height: 400, width: 400, borderRadius: 20}} alt="khari" />
                         <h4 style={{marginTop: 20, textDecoration: 'underline', marginRight: 85, textAlign: 'center'}}> Khari Brydie-Lovelock</h4>
                         <div className="box">
                         <p style={{position: 'relative', margin: 5, textAlign: 'center'}}> Media Director</p>

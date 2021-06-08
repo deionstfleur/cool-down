@@ -30,6 +30,7 @@ const Home = () => {
             <InfoSection />
             <SecondPage />
             <ThirdPage />
+           
             <Footer />
             {/* <FirstPage /> */}
             {/* <InfoSection /> */}
