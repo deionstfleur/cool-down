@@ -11,12 +11,15 @@ import { Nav,
     NavBtnLink
  } from './styles'
  import {Link } from 'react-dom'
+ import logo from '../../images/logo.PNG'
 
 const Navbar = ({toggle}) => {
     return (
         <Nav>
             <NavbarContainer>
-                <NavLogo style={{textDecoration: 'none'}} to='/'>cooldown</NavLogo>
+                <NavLogo style={{textDecoration: 'none'}} to='/'>
+                    <img src ={logo} style={{height: 55, width: 55}}/>
+                </NavLogo>
                 {/* <MobileIcon onClick={toggle}>
                     <FaBars  />
                 </MobileIcon> */}

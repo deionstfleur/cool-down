@@ -15,7 +15,7 @@ import '../pages/members.css'
 
 const members = () => {
     return(
-        <div style={{overflowX: 'hidden'}} >
+        <div style={{overflowX: 'hidden', fontWeight: 'normal'}} >
             <Nav />
             <Jumbotron style={{backgroundColor: '#00262F', height: 260}}>
                     <Col md={{offset: 1}}>

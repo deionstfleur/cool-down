@@ -20,6 +20,11 @@ margin-top: -59px;
 
 `
 
+export const Background = styled.div`
+
+
+`
+
 export const HeroBg = styled.div`
 position: absolute: 
 top: 0;
