@@ -4,6 +4,8 @@ import events from '../../images/events.jpg'
 import homeless from '../../images/homeless.jpg'
 import educate from '../../images/educate.jpg'
 import {FiInstagram} from "react-icons/fi"
+import {FiLinkedin} from "react-icons/fi"
+import {FiFacebook} from "react-icons/fi"
 
 
 
@@ -12,7 +14,11 @@ const ThirdPage = () => {
         <>
         {/* <Container> */}
             <Jumbotron >
-                <h1>Follow us on Instagram: <FiInstagram/> cooldownboston </h1>
+                <h1>Follow our Socials: 
+                    <a target="_blank" href="https://www.linkedin.com/in/cooldown-boston-212236210/"> <FiLinkedin style={{color: 'green'}}/></a> 
+                    <a target="_blank" href="https://www.facebook.com/cooldown.boston"> <FiFacebook style={{color: 'blue'}}/></a> 
+                    {/* <a target="_blank" href="https://www.linkedin.com/in/cooldown-boston-212236210/"> <FiInstagram style={{color: 'purple'}}/></a>  */}
+                </h1>
             </Jumbotron>
         {/* </Container> */}
         {/* <Row>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Figure } from 'react-bootstrap';
-import{ Button} from '../ButtonElement';
+import{ Button} from 'react-bootstrap';
 import { 
     InfoContainer, 
     InfoWrapper, 
@@ -13,7 +13,8 @@ import {
     BtnWrap,
     ImgWrap,
     Img,
-    InfoRow } from './styles'
+    InfoRow,
+     } from './styles'
     import Boston from '../../images/Boston.jpg'
     import EDUCATE from '../../images/EDUCATE2.jpg'
     import SERVE from '../../images/SERVE.jpg'
@@ -43,8 +44,8 @@ const InfoSection = ({
                     <h1 style={{fontSize: 50, paddingBottom: 20, textDecoration: 'underline'}}>Creating Community!</h1>
                     <p style={{fontSize: 25,}}>The mission of Cooldown Boston, a nonprofit charity watchdog and information service, is to maximize the effectiveness of every dollar contributed to charity by providing donors with the information they need to make more informed giving decisions. </p>
                     
-                    <Link to="/About">
-                        <Button style={{borderRadius: 30}}  >Learn More</Button>
+                    <Link to="/Contact">
+                        <Button style={{borderRadius: 30}} >Learn More</Button>
                     </Link>
                 
                 </Col>

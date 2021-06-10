@@ -17,6 +17,13 @@ border: 1px solid black;
 border-radius: 20px;
 width: 100px;
 margin-bottom: 10px;
+cursor: pointer;
+}
+
+.box:hover {
+    color: chartreuse;
+    background-color: black;
+
 }
 
 .animation:hover {
@@ -43,10 +50,11 @@ margin-bottom: 10px;
     }
 }
 .Desmond {
-    height:500px;
+    height: 500px;
 }
 
 h2 {
     margin: 12px;
 }
+
 

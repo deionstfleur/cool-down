@@ -15,7 +15,7 @@ import '../pages/members.css'
 
 const members = () => {
     return(
-        <div style={{overflowX: 'hidden', fontWeight: 'normal'}} >
+        <div style={{overflowX: 'hidden'}} >
             <Nav />
             <Jumbotron style={{backgroundColor: '#00262F', height: 260}}>
                     <Col md={{offset: 1}}>
@@ -35,7 +35,7 @@ const members = () => {
                     <div className="box">
                     <p style={{position: 'relative', margin: 5, textAlign: 'center'}}>Founder</p>
                     </div>
-                    <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60}}>Darius Anderson: Founder of CoolDown Boston, a Boston native and has been involved in many non for profit organizations for close to a decade. All of these different influences have aided in his path to philanthropy and giving back to his community. Darius started CoolDown Boston in 2018 because he saw a real issue in his community that he wanted to solve.</h2>
+                    <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60, fontWeight: 'normal'}}>Darius Anderson: Founder of CoolDown Boston, a Boston native and has been involved in many non for profit organizations for close to a decade. All of these different influences have aided in his path to philanthropy and giving back to his community. Darius started CoolDown Boston in 2018 because he saw a real issue in his community that he wanted to solve.</h2>
                 </Figure>
               
               </Col>
@@ -49,7 +49,7 @@ const members = () => {
                     <div className="box">
                     <p style={{position: 'relative', margin: 5, textAlign: 'center'}}>Volunteer Director</p>
                     </div>
-                    <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60}}>In charge of volunteers and distribution teams for the give out days for CoolDown Boston.</h2>
+                    <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60, fontWeight: 'normal'}}>In charge of volunteers and distribution teams for the give out days for CoolDown Boston.</h2>
                 </Figure>
             
             </Col>
@@ -65,7 +65,7 @@ const members = () => {
                     <div className="box">
                     <p style={{position: 'relative', margin: 5, textAlign: 'center'}}>Financial Director</p>
                     </div>
-                    <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60}}>In charge of finances for the company.</h2>
+                    <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60, fontWeight: 'normal'}}>In charge of finances for the company.</h2>
                 </Figure>
               
               </Col>
@@ -78,7 +78,7 @@ const members = () => {
                         <div className="box">
                         <p style={{position: 'relative', margin: 5, textAlign: 'center'}}> Media Director</p>
                         </div>
-                        <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60}}> In charge of media for CoolDown Boston; newspapers, social media, pictures and videos. </h2>
+                        <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60, fontWeight: 'normal'}}> In charge of media for CoolDown Boston; newspapers, social media, pictures and videos. </h2>
                     </Figure>           
              </Col>            
         </Row>
