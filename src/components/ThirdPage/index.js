@@ -17,7 +17,7 @@ const ThirdPage = () => {
                 <h1>Follow our Socials: 
                     <a target="_blank" href="https://www.linkedin.com/in/cooldown-boston-212236210/"> <FiLinkedin style={{color: 'green'}}/></a> 
                     <a target="_blank" href="https://www.facebook.com/cooldown.boston"> <FiFacebook style={{color: 'blue'}}/></a> 
-                    {/* <a target="_blank" href="https://www.linkedin.com/in/cooldown-boston-212236210/"> <FiInstagram style={{color: 'purple'}}/></a>  */}
+                    <a target="_blank" href="https://www.instagram.com/cooldownboston_/"> <FiInstagram style={{color: 'purple'}}/></a> 
                 </h1>
             </Jumbotron>
         {/* </Container> */}

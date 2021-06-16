@@ -49,7 +49,7 @@ const members = () => {
                     <div className="box">
                     <p style={{position: 'relative', margin: 5, textAlign: 'center'}}>Volunteer Director</p>
                     </div>
-                    <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60, fontWeight: 'normal'}}>In charge of volunteers and distribution teams for the give out days for CoolDown Boston.</h2>
+                    <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60, fontWeight: 'normal'}}>In charge of the flow of volunteers that come to do service with Cooldown Boston. Aids in receiving clothes/food donation. Plans and directs a volunteer program to increase the amount of service we perform.</h2>
                 </Figure>
             
             </Col>
@@ -65,7 +65,7 @@ const members = () => {
                     <div className="box">
                     <p style={{position: 'relative', margin: 5, textAlign: 'center'}}>Financial Director</p>
                     </div>
-                    <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60, fontWeight: 'normal'}}>In charge of finances for the company.</h2>
+                    <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60, fontWeight: 'normal'}}>In charge of General bookkeeping with cash donations. Helps make sound investments for Cooldown Boston. </h2>
                 </Figure>
               
               </Col>
@@ -78,7 +78,7 @@ const members = () => {
                         <div className="box">
                         <p style={{position: 'relative', margin: 5, textAlign: 'center'}}> Media Director</p>
                         </div>
-                        <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60, fontWeight: 'normal'}}> In charge of media for CoolDown Boston; newspapers, social media, pictures and videos. </h2>
+                        <h2 style={{fontSize: 20, fontWeight: 20, marginRight: 60, fontWeight: 'normal'}}> Brains behind photos, newspaper articles and advertisements. Responsible for creating content, scheduling posts, and monitoring social media metrics for Cooldown Boston. </h2>
                     </Figure>           
              </Col>            
         </Row>
