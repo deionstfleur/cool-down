@@ -21,7 +21,7 @@ cursor: pointer;
 }
 
 .box:hover {
-    color:  #00262F;
+    color:  #fff;
     background-color: black;
 
 }
