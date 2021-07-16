@@ -47,7 +47,7 @@ const services = () => {
                   <Col md={12} xs={12}> 
 
                     <h1 style={{textAlign: 'center', textDecoration: 'underline'}}>Our Recent Engagements</h1>
-                <p style={{fontSize: 20, lineHeight: "3vw", marginTop: 30}}>      CoolDown Boston was founded with the mission of helping out the less fortunate of the Greater Boston Area.  We look to provide everyday basic essentials including, water, hygienic supplies, snacks, and during the winter; gloves, hats, blankets, and hopefully depending on our donations this summer we would like to provide sweatshirts and sweatpants as well.</p>
+                <p style={{fontSize: 20, lineHeight: '40px', marginTop: 30}}>      CoolDown Boston was founded with the mission of helping out the less fortunate of the Greater Boston Area.  We look to provide everyday basic essentials including, water, hygienic supplies, snacks, and during the winter; gloves, hats, blankets, and hopefully depending on our donations this summer we would like to provide sweatshirts and sweatpants as well.</p>
                   </Col>
                 <div>
         <div style={{alignItems: 'center'}}>
@@ -75,16 +75,13 @@ const services = () => {
                   </Col>
 
               </Row>
-                  <ReactPlayer url="https://youtu.be/QR1EvaTJPHk" height={200} width="700" />
+                  <ReactPlayer url="https://youtu.be/QR1EvaTJPHk" height={400} width="700" />
             <br/>
             <br/>
             <br/>
               <Row>
-                <Col med={6}>
-                  <ReactPlayer url="https://youtu.be/pxFx4FuNGhQ" height={400} width="650" />
-                </Col>
 
-                <Col med={6}>
+                <Col md={12} xs={12}>
                   <ReactPlayer url="https://youtu.be/PbpRSfAMlnQ" height={400} width="350" />
                 </Col>
 
