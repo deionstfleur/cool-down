@@ -16,7 +16,7 @@ import {
 const nav = () => {
     return(
 
-        <Navbar  collapseOnSelect expand="lg" bg="black" variant="black" style={{zIndex: 1000, position: 'fixed', width: '100%', backgroundColor: 'black'}}>
+        <Navbar  collapseOnSelect expand="lg" bg="black" variant="black" style={{zIndex: 1000, position: 'fixed', width: '100%', backgroundColor: 'black', margin: 'auto'}}>
   <Navbar.Brand href="/" style={{fontSize: 25}}>CDB</Navbar.Brand>
   <Navbar.Toggle  style={{color: 'white'}} aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse style={{color: 'white'}}  id="responsive-navbar-nav">
