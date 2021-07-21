@@ -35,11 +35,6 @@ const contact = () => {
                  </h1>  
                 </Row> 
 
-                <Row style={{paddingTop: 10}}>
-                 <h1 style={{fontSize: 31}}>
-                        <FaPhone /> (617)-997-7931
-                 </h1>  
-                </Row>
                
                </Col>
 

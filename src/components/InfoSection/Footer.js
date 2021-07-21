@@ -36,14 +36,14 @@ const Footer = ({
             <InfoWrapper>
             <FooterLinksWrapper> 
                         <FooterLinkItems>
-                            <FooterLinkTitle> Donate</FooterLinkTitle>
+                            <FooterLinkTitle> <a target="_blank" style={{color: '#fff', textDecoration: 'none'}} href="https://www.gofundme.com/f/cool-down-boston-20?member=8422086&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=copy_link&utm_source=customer">Donate</a></FooterLinkTitle>
                                 <FooterLink to="/About">About</FooterLink>
                                 <FooterLink to="/Members">Members</FooterLink>
                                 <FooterLink to="/Contact">Contact</FooterLink>
                         </FooterLinkItems>
 
                         <FooterLinkItems>
-                            <FooterLinkTitle> Donate</FooterLinkTitle>
+                        <FooterLinkTitle> <a  target="_blank" style={{color: '#fff', textDecoration: 'none'}} href="https://www.gofundme.com/f/cool-down-boston-20?member=8422086&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=copy_link&utm_source=customer">Donate</a></FooterLinkTitle>
                                 <FooterLink to="/About">About</FooterLink>
                                 <FooterLink to="/Members">Members</FooterLink>
                                 <FooterLink to="/Contact">Contact</FooterLink>

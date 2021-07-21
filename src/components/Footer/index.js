@@ -53,7 +53,7 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle> Donate</FooterLinkTitle>
-                                <FooterLink to="/donate">How it works</FooterLink>
+                                <FooterLink to="/donate"><a href="https://www.gofundme.com/f/cool-down-boston-20?member=8422086&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=copy_link&utm_source=customer">How it Works</a></FooterLink>
                                 <FooterLink to="/donate">Testimonials</FooterLink>
                                 <FooterLink to="/donate">Careers</FooterLink>
                                 <FooterLink to="/donate">Terms of Service</FooterLink>
