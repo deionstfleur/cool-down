@@ -4,7 +4,7 @@ import Navbar from '../../src/components/Navbar'
 import create from '../images/create.jpg'
 import Footer from '../components/InfoSection/Footer'
 import Nav from '../components/Navbar/index'
-
+import '../pages/about.css'
 
 
 const about = () => {
@@ -22,19 +22,52 @@ const about = () => {
                  <h1> Creating Community</h1>
                 </Col> */}
 
-                <Col md={{offset: 1}} >
+                {/* <Col md={{offset: 1}} >
                  <Figure style={{paddingTop: 10}} md>
                     <Figure.Image src={create}  height={50} width={900} />
                 </Figure>
-                </Col>
+                </Col> */}
               
                 <Container>
-                    <Col md={{offset: 3}} style={{paddingLeft: 10}}>
-                        <h1 style={{padding: 10, textDecoration: 'underline'}}>Passionate About Service</h1>
+
+                    <Row >
+                 <Col >
+                 
+                </Col>
+                    </Row>
+                    <Row >
+                        <div className="col-xs-12 col-lg-6" >
+                            <img src={create} style={{height: 500, width: 500, borderRadius: 20}}  />
+
+                            <div className="button" style={{backgroundColor: '#00262F', width: '50%', margin: 'auto', marginTop: 20, borderRadius: 10, height: 80, cursor: 'pointer'}} >
+                                <h2 style={{color: '#fff', textAlign: 'center', lineHeight: 1, padding: 5}}><a style={{color: 'white', textDecoration: 'none'}} href="http://www.cooldownboston.com/Members">Check out <br /> our Team !  </a></h2>
+                            </div>
+                        </div>
+
+                        <div className="col-xs-12 col-lg-6">
+                    <h1 style={{padding: 10, textDecoration: 'underline'}}>Passionate About Service</h1>
+                        <p style={{fontSize: 20}}>
+                    CoolDown Boston was founded with the mission of helping out the less fortunate of the Greater Boston Area.  We look to provide everyday basic essentials including, water, hygienic supplies, snacks, and during the winter; gloves, hats, blankets, and hopefully depending on our donations this summer we would like to provide sweatshirts and sweatpants as well.  The Financial report was based upon our donations from last summer and how many supplies we went through each day/week.  We also did research on each item we would like to give out and find where we can get the best deals.  One of the bigger investments we will be looking to make in the near future is storage space.  Having a location where we can keep all our supplies will be a massive help, where we can stock up on items, rather than having to buy them everyday because we don’t have anywhere to keep them. </p>
+
+                    <p style={{fontSize: 20}}>
+                        In the coming days we will be going around Boston to take note of areas where there is a higher density of people who will be in need of these items we listed above.  This will help us properly prepare for each day, and more importantly will help us reach more people that are in need of some assistance.
+                      <strong> CoolDown Boston is committed to assisting the underprivileged in the Greater Boston Area. We put our cash donations toward gift baskets with toiletries, water, fem-care products, and snacks. CoolDown Boston is building a community in which we can help folks put their lives back together through volunteerism.</strong>
+                        </p>
+
+                        </div>
+                    <Figure style={{paddingTop: 10}} md>
+                   </Figure>
+                    <Col style={{paddingLeft: 10}}>
+                
                     </Col>
-                    <Col md={12}>
-                    <p style={{fontSize: 25}}>
-In the coming days we will be going around Boston to take note of areas where there is a higher density of people who will be in need of these items we listed above.  This will help us properly prepare for each day, and more importantly will help us reach more people that are in need of some assistance.</p>
+                    </Row>
+
+                    <Col>
+                 
+
+                        <p></p>
+
+          
                   
                     </Col>
                 </Container>
