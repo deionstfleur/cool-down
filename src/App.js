@@ -6,7 +6,7 @@ import DonatePage from './pages/donate'
 import AboutPage from './pages/about'
 import ServicesPage from './pages/services'
 import ContactPage from './pages/contact'
-import MembersPage from './pages/members'
+import MembersPage from './pages/members 2'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

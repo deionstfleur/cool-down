@@ -43,62 +43,46 @@ const services = () => {
             <Container>
              
           <Container>
-              <Row>
-                  <Col md={12} xs={12}> 
+          
+               
 
-                    <h1 style={{textAlign: 'center', textDecoration: 'underline'}}>Our Recent Engagements</h1>
-                <p style={{fontSize: 20, lineHeight: '40px', marginTop: 30}}>      CoolDown Boston was founded with the mission of helping out the less fortunate of the Greater Boston Area.  We look to provide everyday basic essentials including, water, hygienic supplies, snacks, and during the winter; gloves, hats, blankets, and hopefully depending on our donations this summer we would like to provide sweatshirts and sweatpants as well.</p>
-                  </Col>
-                <div>
-        <div style={{alignItems: 'center'}}>
-              <Row>
-                  <Col md={3} style={{margin: 35}}>
-                    <Figure>
-                        <div>
+                    <div className="row" style={{margin: 'auto', paddingTop: 30}}> 
+                    <div className="col-xs-12 col-lg-6">
+                    <h1 style={{textDecoration: 'underline'}}>Our Recent Engagements</h1>
+                     <p style={{fontSize: 20, lineHeight: '40px', marginTop: 30}}> CoolDown Boston was founded with the mission of helping out the less fortunate of the Greater Boston Area.  We look to provide everyday basic essentials including, water, hygienic supplies, snacks, and during the winter; gloves, hats, blankets, and hopefully depending on our donations this summer we would like to provide sweatshirts and sweatpants as well.</p>
 
-                        <img className="picture" src={trunk} style={{height: 350, width: 350, borderRadius: '20px'}} />
-                        </div>
-                    </Figure>
-                  </Col>
+                    </div>
+                    <div className="col-xs-12 col-lg-6">
+                        <img className="img1" src={freewater} style={{height: 350, width: 350,borderRadius: 300}} />
 
-                  <Col md={3}  style={{margin: 35}}>
-                    <Figure>
-                        <img src={freewater} style={{height: 350, width: 350,borderRadius: '20px'}} />
-                    </Figure>
-                  </Col>
+                    </div>
+                   
+                   
+                   
+                    <h1>Social Interactions</h1> 
 
-                  <Col md={3}  style={{margin: 35}}>
-                    <Figure>
-                        
-                        <img src={events} style={{height: 350, width: 350, borderRadius: '20px'}} />
-                    </Figure>
-                  </Col>
 
-              </Row>
+
+                    
+
+                <div className="row">
+                    <div className="col-xs-12 col-lg-6">
                   <ReactPlayer url="https://youtu.be/QR1EvaTJPHk" height={400} width="700" />
-            <br/>
-            <br/>
-            <br/>
-              <Row>
-
-                <Col md={12} xs={12}>
+                    </div>
+                    <div className="col-xs-12 col-lg-6">
                   <ReactPlayer url="https://youtu.be/PbpRSfAMlnQ" height={400} width="350" />
-                </Col>
+                    </div>
+                </div>
 
-              
-              </Row>
-
-        </div>
-
-                
-                 </div>
-              </Row>
+                    </div>
+               
+       
+           
           </Container>
 
       
        
-            <br></br>
-            <br></br>
+           
             <br></br>
           </Container>
           <Footer />

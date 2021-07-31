@@ -30,7 +30,7 @@ const members = () => {
                 <Figure >
                     {/* <Figure.Image src={Darius} height={300} width={200} style={{borderRadius: 20}}  />
                      */}
-                     <img src={Darius} style={{borderRadius: 20, height: 500, width: 400}} className="animation" />
+                     <img className="Darius" src={Darius} style={{borderRadius: 20, height: 500, width: 400}}  />
                     <h4 style={{marginTop: 20, textDecoration: 'underline', marginRight: 85, textAlign: 'center'}}> Darius Anderson</h4>
                     <div >
                     <div className="box">
@@ -46,7 +46,7 @@ const members = () => {
             <Col md={6}>
                 <Figure>
                     {/* <Figure.Image src={Desmond} height={300} width={200} style={{borderRadius: 20}} /> */}
-                    <img src={Desmond} style={{height: 500, width: 400, borderRadius: 20}}  />
+                    <img className="Desmond" src={Desmond} style={{height: 500, width: 400, borderRadius: 20}}  />
                     <h4 style={{marginTop: 20, textDecoration: 'underline', marginRight: 85, textAlign: 'center'}}> Desmond Sullivan</h4>
                    <div>
                     <div className="box">
@@ -65,7 +65,7 @@ const members = () => {
               <Col md={6}>
                 <Figure >
                     {/* <Figure.Image src={Darius} height={300} width={200} style={{borderRadius: 20}}  /> */}
-                    <img src={Kevin} style={{height: 500, width: 400, borderRadius: 20}} />
+                    <img className="Kevin" src={Kevin} style={{height: 500, width: 400, borderRadius: 20}} />
                     <h4 style={{marginTop: 20, textDecoration: 'underline', marginRight: 15, textAlign: 'center'}}> Kevin Jubani</h4>
                     <div className="box">
                     <p style={{position: 'relative', margin: 5, textAlign: 'center'}}>Financial Director</p>
@@ -78,7 +78,7 @@ const members = () => {
               <Col md={6}>
                     <Figure>
                         {/* <Figure.Image src={Kevin} height={100} width={300} style={{borderRadius: 20}} /> */}
-                        <img src={Khari} style={{height: 500, width: 400, borderRadius: 20}} alt="khari" />
+                        <img className="Khari" src={Khari} style={{height: 500, width: 400, borderRadius: 20}} alt="khari" />
                         <h4 style={{marginTop: 20, textDecoration: 'underline', marginRight: 85, textAlign: 'center'}}> Khari Brydie-Lovelock</h4>
                         <div className="box">
                         <p style={{position: 'relative', margin: 5, textAlign: 'center'}}> Media Director</p>

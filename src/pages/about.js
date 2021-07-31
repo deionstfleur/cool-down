@@ -51,7 +51,6 @@ const about = () => {
 
                     <p style={{fontSize: 20}}>
                         In the coming days we will be going around Boston to take note of areas where there is a higher density of people who will be in need of these items we listed above.  This will help us properly prepare for each day, and more importantly will help us reach more people that are in need of some assistance.
-                      <strong> CoolDown Boston is committed to assisting the underprivileged in the Greater Boston Area. We put our cash donations toward gift baskets with toiletries, water, fem-care products, and snacks. CoolDown Boston is building a community in which we can help folks put their lives back together through volunteerism.</strong>
                         </p>
 
                         </div>

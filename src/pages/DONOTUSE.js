@@ -1,6 +1,6 @@
 import React from 'react';
 import {Jumbotron, Container, Row, Col, Figure} from 'react-bootstrap'
-import Navbar from '../../src/components/Navbar'
+import Navbar from '../components/Navbar'
 import Darius from '../images/Darius.jpg'
 import Desmond from '../images/Desmond.jpg'
 import Kevin from '../images/Kevin.jpg'
@@ -30,7 +30,7 @@ const members = () => {
                 <Fade left >
 
                     <Figure>
-                        <Figure.Image  src={Darius} />
+                        <Figure.Image className="Darius"  src={Darius} />
                     </Figure>
                 </Fade>
                </Col>
